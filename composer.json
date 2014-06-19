@@ -1,0 +1,20 @@
+{
+	"name": "JayDevlin/silverstripe-module-manifest-inspector",
+	"description": "Provides a simple extension for LeftAndMain to inspect the cache folder and loaded manifests.",
+	"type": "silverstripe-module",
+	"authors": [
+		{
+			"name": "Devlin"
+		}
+	],
+	"support": {
+		"issues": "http://github.com/JayDevlin/silverstripe-module-manifest-inspector/issues"
+	},
+	"require": {
+		"silverstripe/framework": "~3.1",
+		"silverstripe/cms": "~3.1"
+	},
+	"extra": {
+		"installer-name": "manifest-inspector"
+	}
+}

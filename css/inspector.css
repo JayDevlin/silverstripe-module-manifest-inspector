@@ -1,0 +1,59 @@
+.RSManifestInspector .tabset{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+.RSManifestInspector.ui-tabs .ui-tabs-panel{
+	position:absolute;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+.RSManifestInspector .cms-panel-header{
+	white-space: nowrap;
+}
+
+.RSManifestInspector .inspector-panel{
+	float:left;
+	width:200px;
+	height:100%;
+	overflow: auto;
+	padding:0 8px 0 8px;
+	border-right: 1px solid #c0c0c2;
+}
+.RSManifestInspector .inspector-content{
+	height:100%;
+	overflow: auto;
+	padding:0 8px 0 8px;
+}
+
+.RSManifestInspector #CacheFolder ul li{
+	line-height: 1.5em;
+    white-space: nowrap;
+}
+.RSManifestInspector #CacheFolder ul li ul{
+	padding:0 0 0 15px;
+	list-style-type: disc;
+	display:none;
+}
+.RSManifestInspector #CacheFolder span.closed{
+	display:inline-block;
+	line-height: 25px;
+	width:18px;
+	height:18px;
+	cursor:pointer;
+	background-image:url("../../framework/admin/images/sitetree_ss_default_icons.png");
+	background-position:0 0;
+}
+.RSManifestInspector #CacheFolder span.open{
+	background-position:-20px 0;
+}
+
+.RSManifestInspector ul.ulli{
+	padding:0 0 0 15px;
+	list-style-type: disc;
+}
+.RSManifestInspector ul.ulli li{
+	line-height: 1.5em;
+    white-space: nowrap;
+}
